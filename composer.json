@@ -1,0 +1,25 @@
+{
+    "name": "ybazli/tr-faker",
+    "description": "Turkish faker data package for laravel",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [{
+        "name": "ybazli",
+        "email": "Yashar.bazli@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ybazli\\Faker\\": "src/"
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Ybazli\\Faker\\Test\\": "tests/"
+            }
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*"
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
